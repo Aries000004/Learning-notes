@@ -1015,46 +1015,45 @@ git pull 从远端同步到本地
 
 ### 本地建仓库提交到远端
 
-- makdir hello
-- cd hello
-- git init
-- git add .
-- git status
-- git commit -m  ""说明"
-- git log 
+- `makdir hello`
+- `cd hello`
+- `git init`
+- `git add .`
+- `git status`
+- `git commit -m  ""说明"`
+- `git log `
 
 重置版本
 
-- git reset --hard   id
-- git reflog
-- git remote add origin (url)
-- git push -u origin master
-- git pull  (url)
+- `git reset --hard   id`
+- `git reflog`
+- `git remote add origin (url)`
+- `git push -u origin master`
+- `git pull  (url)`
 
 #### 远端已存在的项目
 
-- git clone (url)
-- cd hello 
-- git add .
-- git checkout  --
-- git commit -m  "说明"
-- git push origin master
-- git pull
+- `git clone (url)`
+- `cd hello `
+- `git add .`
+- `git checkout  --`
+- `git commit -m  "说明"`
+- `git push origin master`
+- `git pull`
 
 
 
 ### git 使用流程
 
-- git cone <url>
-- cd <dir>
-- ​
+- `git cone <url>`
+- `cd <dir>`
 
 
-- git branch  分支名    创建
-- git checkout 分支名   切换
-- 合并   切换到master 分支
-  - git merge  cool-function 将分支合并到master
-  - git push origin master
+- `git branch  分支名 `   创建
+- `git checkout 分支名 `  切换
+- 合并   切换到`master `分支
+  - `git merge  cool-function `将分支合并到master
+  - `git push origin master`
 
 
 
@@ -1063,7 +1062,7 @@ git pull 从远端同步到本地
 - `jekyll `生成页面  
 - `hexo ` `(bootcss)`里面  
 
-在linux 
+在`linux `
 
-- 安装   git scm
+- 安装   `git scm`
 - linux  <!---->
