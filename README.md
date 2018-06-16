@@ -100,6 +100,21 @@
 
 
 
+### 07-1Django基础教程rango
+
+1. [rango](07-1Django基础教程rango/rango.md)
+
+
+
+### 07-2-Djano-axf爱鲜蜂
+
+1. [day01爱鲜蜂](07-2-Djano-axf爱鲜蜂/day01爱鲜蜂.md)
+2. [day02登录注册-后台验证用户名密码](07-2-Djano-axf爱鲜蜂/day02登录注册-后台验证用户名密码.md)
+3. [day03添加和减少商品数量ajax请求](07-2-Djano-axf爱鲜蜂/day03添加和减少商品数量ajax请求.md)
+4. [day04部署-Ngix+uwsgi](07-2-Djano-axf爱鲜蜂/day04部署-Ngix+uwsgi.md)
+
+
+
 ### 08-API
 
 1. [API-简介-使用](08-API/API-简介-使用.md)
@@ -121,3 +136,10 @@
 8. [02Flask-用户认证](09-Flask/基础教程/02Flask-用户认证.md)
 9. [03Flask-用户角色](09-Flask/基础教程/03Flask-用户角色.md)
 
+
+
+### z-hexo快速生成博客+HTML原始笔记
+
+1. [00-博客提示](z-hexo快速生成博客+HTML原始笔记/00-博客提示.md)
+1. [01-Hexo安装](z-hexo快速生成博客+HTML原始笔记/01-Hexo安装.md)
+1. [06-HTML原始笔记](z-hexo快速生成博客+HTML原始笔记/06-HTML原始笔记.md)
