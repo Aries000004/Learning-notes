@@ -2,13 +2,22 @@
 
 [TOC]
 
+##  目录索引
+
+### 
+
+### 00 杂记
+
+1. [Anaconda](00-杂记/Anaconda.md)
+2. [HTML_note](00-杂记/HTML_note.md)
+3. [Python-note](00-杂记/Python-note.md)
+4. [Python_blog](00-杂记/Python_blog.md)
+5. [Xshell](00-杂记/Xshell.md)
+6. [公司介绍](00-杂记/公司介绍.md)
 
 
-### 简单索引
 
-
-
-### 1. Python
+### 01. Python
 
 1. [02-Python-笔记-01](01-python/02-Python-笔记-01.md)
 1. [03-Python-笔记-02](01-python/03-Python-笔记-02.md)
@@ -21,7 +30,7 @@
 
 
 
-### 2.  前端
+### 02.  前端
 
 1. [06-HTML原始笔记](02-html-js-css/06-HTML原始笔记.md)
 1. [24-HTML标签于css](02-html-js-css/24-HTML标签于css.md)
@@ -29,7 +38,7 @@
 
 
 
-### 3. Git
+### 03. Git
 
 1. [11-Git学习笔记](03-Git/11-Git学习笔记.md)
 1. [12-Git学习笔记02](03-Git/12-Git学习笔记02.md)
@@ -108,22 +117,7 @@
 4. [Flask操作数据库-blog摘录](09-Flask/Flask操作数据库-blog摘录.md)
 5. [models和连接数据库](09-Flask/models和连接数据库.md)
 6. [something](09-Flask/something.md)
-
-
-
-1. [01对模板-请求钩子-模型等基础介绍](09-Flask/基础教程/01对模板-请求钩子-模型等基础介绍.md)
-2. [02Flask-用户认证](09-Flask/基础教程/02Flask-用户认证.md)
-3. [03Flask-用户角色](09-Flask/基础教程/03Flask-用户角色.md)
-
-
-
-### 10 其他
-
-1. [Anaconda](/Anaconda.md)
-1. [HTML_note](/HTML_note.md)
-1. [Python-note](/Python-note.md)
-1. [Python_blog](/Python_blog.md)
-1. [Xshell](/Xshell.md)
-1. [公司介绍](/公司介绍.md)
-
+7. [01对模板-请求钩子-模型等基础介绍](09-Flask/基础教程/01对模板-请求钩子-模型等基础介绍.md)
+8. [02Flask-用户认证](09-Flask/基础教程/02Flask-用户认证.md)
+9. [03Flask-用户角色](09-Flask/基础教程/03Flask-用户角色.md)
 
