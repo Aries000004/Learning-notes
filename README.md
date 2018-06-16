@@ -1,4 +1,6 @@
-## README
+## :star: Hi, I'm here wait for you!  :star:
+
+欢迎阅读, 点个星星就更好了! :star:  :happy:
 
 [TOC]
 
