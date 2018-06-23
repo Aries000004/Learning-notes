@@ -1,5 +1,3 @@
-Flask session cookie 
-
 
 
 #### 关于cookie和session
