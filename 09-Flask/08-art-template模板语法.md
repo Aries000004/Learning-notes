@@ -1,7 +1,3 @@
-art-template模板语法
-
-
-
 
 
 ### 特性
@@ -22,7 +18,7 @@ art-template模板语法
 
 #### 语法
 
-
+> 在 jinjia2 中使用 {% raw %}  {% endraw %}  将 template 语法隔离开
 
 1.  引用简洁的语法的引擎模板
 
@@ -93,13 +89,4 @@ art-template模板语法
     支持传入参数和嵌套使用: {{ time|say:'cd'|ubb|link }}
     ```
 
-    ​
-
-
-
-[CSDN博主原文](https://blog.csdn.net/pupilxiaoming/article/details/77118855)
-
-
-
-
-
+    
