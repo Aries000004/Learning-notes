@@ -30,14 +30,20 @@
 1. [32-装饰器](01-python/32-装饰器.md)
 1. [递归函数](01-python/递归函数.md)
 
+#### 流畅的Python
+
+- 待补
+
 
 
 
 ### 02.  前端
 
-1. [06-HTML原始笔记](02-html-js-css/06-HTML原始笔记.md)
+1. [06-HTML原始笔记-未整理](02-html-js-css/06-HTML原始笔记.md)
 1. [24-HTML标签于css](02-html-js-css/24-HTML标签于css.md)
 1. [25-Javascript-JQuary-Ajax](02-html-js-css/25-Javascript-JQuary-Ajax.md)
+
+
 
 
 
@@ -65,8 +71,6 @@
 
 
 
-
-
 ### 05-Linux 操作系统
 
 1. [07-Linux操作,阿里云主机](05-Linux/07-Linux操作,阿里云主机.md)
@@ -74,8 +78,6 @@
 1. [09-vim文本编辑器](05-Linux/09-vim文本编辑器.md)
 1. [10-redias安装配置](05-Linux/10-redias安装配置.md)
 1. [15-数据库介绍,Mysql安装](05-Linux/15-数据库介绍,Mysql安装.md)
-
-
 
 
 
@@ -94,8 +96,6 @@
 
 
 
-
-
 ### 07-Django学习 进阶
 
 1. [day-01-分页操作-配置干净环境-重定向](07-Django学习2.0版/day-01-分页操作-配置干净环境-重定向.md)
@@ -109,13 +109,9 @@
 9. [day-07小结](07-Django学习2.0版/day-07小结.md)
 10. [统计登录次数的函数](07-Django学习2.0版/统计登录次数的函数.md)
 
-
-
 #### 7-1Django基础教程rango
 
 1. [rango](07-1Django基础教程rango/rango.md)
-
-
 
 
 #### 7-2-Djano-axf爱鲜蜂
@@ -127,16 +123,12 @@
 
 
 
-
-
 ### 08-API
 
 1. [API-简介-使用](08-API/API-简介-使用.md)
 2. [day-05-API接口-筛选过滤数据-重构消息](08-API/day-05-API接口-筛选过滤数据-重构消息.md)
 3. [day-05-API数据格式重构-数据筛选过滤](08-API/day-05-API数据格式重构-数据筛选过滤.md)
 4. [day04-REST框架API接口](08-API/day04-REST框架API接口.md)
-
-
 
 
 
@@ -159,7 +151,9 @@
 3. [03Flask-用户角色](09-Flask/基础教程笔记/03Flask-用户角色.md)
 4. [flask-web开发-基于Python的web应用](09-Flask/基础教程笔记/flask-web开发-基于Python的web应用.md)
 
+#### aj-项目
 
+- 待补
 
 
 
