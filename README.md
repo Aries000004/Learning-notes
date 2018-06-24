@@ -1,10 +1,10 @@
 ## :star: Hi, I'm here wait for you!  :star:
 
-欢迎阅读, 点个星星就更好了! :star:  :happy:
+欢迎阅读, 点个星星就更好了! :star: 
 
-[TOC]
 
-##  目录索引
+
+> Auth: 张明禄
 
 ### 
 
@@ -26,8 +26,6 @@
 1. [03-Python-笔记-02](01-python/03-Python-笔记-02.md)
 1. [04-Python-笔记-03](01-python/04-Python-笔记-03.md)
 1. [05-yield函数](01-python/05-yield函数.md)
-1. [13-第一-二章](01-python/13-第一-二章.md)
-1. [14-第二章](01-python/14-第二章.md)
 1. [22-Python操作数据库](01-python/22-Python操作数据库.md)
 1. [32-装饰器](01-python/32-装饰器.md)
 1. [递归函数](01-python/递归函数.md)
@@ -154,12 +152,12 @@
 8. [08-art-template模板语法](09-Flask/08-art-template模板语法.md)
 9. [09-nginx和uwsgi部署flask](09-Flask/09-nginx和uwsgi部署flask.md)
 
-##### 基础教程
+#### 基础教程
 
-1. [01对模板-请求钩子-模型等基础介绍](09-Flask\基础教程笔记/01对模板-请求钩子-模型等基础介绍.md)
-2. [02Flask-用户认证](09-Flask\基础教程笔记/02Flask-用户认证.md)
-3. [03Flask-用户角色](09-Flask\基础教程笔记/03Flask-用户角色.md)
-4. [flask web开发-基于Python的web应用](09-Flask\基础教程笔记/flask web开发-基于Python的web应用.md)
+1. [01对模板-请求钩子-模型等基础介绍](09-Flask/基础教程笔记/01对模板-请求钩子-模型等基础介绍.md)
+2. [02Flask-用户认证](09-Flask/基础教程笔记/02Flask-用户认证.md)
+3. [03Flask-用户角色](09-Flask/基础教程笔记/03Flask-用户角色.md)
+4. [flask-web开发-基于Python的web应用](09-Flask/基础教程笔记/flask-web开发-基于Python的web应用.md)
 
 
 
