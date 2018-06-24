@@ -113,16 +113,14 @@
 
 
 
-
-
-### 07-1Django基础教程rango
+#### 7-1Django基础教程rango
 
 1. [rango](07-1Django基础教程rango/rango.md)
 
 
 
 
-### 07-2-Djano-axf爱鲜蜂
+#### 7-2-Djano-axf爱鲜蜂
 
 1. [day01爱鲜蜂](07-2-Djano-axf爱鲜蜂/day01爱鲜蜂.md)
 2. [day02登录注册-后台验证用户名密码](07-2-Djano-axf爱鲜蜂/day02登录注册-后台验证用户名密码.md)
@@ -146,23 +144,31 @@
 
 ### 09-Flask
 
-1. [01-Flask-开始项目-文件组成](09-Flask/01-Flask-开始项目-文件组成.md)
-2. [02-Session和Cookie](09-Flask/02-Session和Cookie.md)
-3. [03-flask模板Jinja2](09-Flask/03-flask模板Jinja2.md)
-4. [Flask操作数据库-blog摘录](09-Flask/Flask操作数据库-blog摘录.md)
-5. [models和连接数据库](09-Flask/models和连接数据库.md)
-6. [something](09-Flask/something.md)
-7. [01对模板-请求钩子-模型等基础介绍](09-Flask/基础教程/01对模板-请求钩子-模型等基础介绍.md)
-8. [02Flask-用户认证](09-Flask/基础教程/02Flask-用户认证.md)
-9. [03Flask-用户角色](09-Flask/基础教程/03Flask-用户角色.md)
+1. [01-开始项目,基础项目的拆分](09-Flask/01-开始项目,基础项目的拆分.md)
+2. [02-连接Redis和MySQL](09-Flask/02-连接Redis和MySQL.md)
+3. [03-定义模型和创建](09-Flask/03-定义模型和创建.md)
+4. [04-模型的一对一,一对多,多对多](09-Flask/04-模型的一对一,一对多,多对多.md)
+5. [05-数据查询和模型迁移migrate](09-Flask/05-数据查询和模型迁移migrate.md)
+6. [06-flask模板引擎Jinja2](09-Flask/06-flask模板Jinja2.md)
+7. [07-关于Flask-session和cookie](09-Flask/07-关于Flask-session和cookie.md)
+8. [08-art-template模板语法](09-Flask/08-art-template模板语法.md)
+9. [09-nginx和uwsgi部署flask](09-Flask/09-nginx和uwsgi部署flask.md)
+
+##### 基础教程
+
+1. [01对模板-请求钩子-模型等基础介绍](09-Flask\基础教程笔记/01对模板-请求钩子-模型等基础介绍.md)
+2. [02Flask-用户认证](09-Flask\基础教程笔记/02Flask-用户认证.md)
+3. [03Flask-用户角色](09-Flask\基础教程笔记/03Flask-用户角色.md)
+4. [flask web开发-基于Python的web应用](09-Flask\基础教程笔记/flask web开发-基于Python的web应用.md)
 
 
 
 
 
-### z-hexo快速生成博客+HTML原始笔记
+### last-hexo快速生成博客+HTML原始笔记
 
 1. [00-博客提示](z-hexo快速生成博客+HTML原始笔记/00-博客提示.md)
 1. [01-Hexo安装](z-hexo快速生成博客+HTML原始笔记/01-Hexo安装.md)
 1. [06-HTML原始笔记](z-hexo快速生成博客+HTML原始笔记/06-HTML原始笔记.md)
+
 
