@@ -30,8 +30,6 @@ etree.SubElement(root, 'child1')
 
 #### xpath
 
-
-
 ```python
 
 from lxml import etree
@@ -76,15 +74,12 @@ etree.parse():解析文件类型对象
 
 
 
-
 #### xpath 语法
-
-
 
 | 表达式   | 作用                   |
 | -------- | ---------------------- |
 | /        | 根节点选取             |
-| //       | 值当前选择的文当中选取 |
+| //       | 在当前选择的文档中选取 |
 | .        | 选取当前节点           |
 | ..       | 选取当前节点的父节点   |
 | @        | 选取属性               |
@@ -98,8 +93,6 @@ etree.parse():解析文件类型对象
 | //book          | 选取所有 book 子元素，而不管它们在文档中的位置。             |
 | bookstore//book | 选择属于 bookstore 元素的后代的所有 book 元素，而不管它们位于 bookstore 之下的什么位置。 |
 | //@lang         | 选取名为 lang 的所有属性。                                   |
-
-
 
 
 

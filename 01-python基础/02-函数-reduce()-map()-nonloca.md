@@ -1,11 +1,3 @@
----
-title: 03-函数的用法篇01  reduce() map() nonlocal
-date: 2018-02-13 11:13:38
-tags: Python基础
----
-
-<h4 style="color: #228B22;">函数的用法篇  reduce() map() nonlocal</h4>
-
 
 
 - ### 介绍

@@ -1,10 +1,4 @@
----
-title: 04-网络编程的基础介绍和 base64 笔记
-date: 2018-02-13 11:19:17
-tags: Python基础
----
-
-<h4 style="color: #228B22;">网络编程  TCP   UDP  </h4>
+ 
 
 
 
@@ -14,7 +8,7 @@ tags: Python基础
 - 实现信息互联与资源共享 
 - 网络接口 -->  网络  -->  传输  --> 应用 
 - Inernet  因特网   基于TCP/IP Model 的网络 
-- 
+- ​
 
 ### 1. 1 TCP   可靠传输协议    
 

@@ -1,13 +1,3 @@
----
-title: 15-安装数据库 安装使用笔记  MySQL
-date: 2018-05-14 18:10:57
-tags: 数据库
----
-
-<h4 style="color: #228B22;">关系型数据库 MySQL  如何安装Linnux环境, windows环境社区版安装使用</h4>
-
-
-
 
 
 **1.为什么要使用数据库?**
@@ -87,7 +77,7 @@ https://git.coding.net/zhangminglu/images.git
   - 如果出现缺失的提示, 选择 该软件 Execute
   - ready to config  配置
     - Type and Networking   -> cofing Type Development Machine 
-    - 
+    - ​
 - 出现缺少环境更新 .NET环境   微软官方下载    .NET4.5.2下载
 
 

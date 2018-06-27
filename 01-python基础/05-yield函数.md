@@ -1,13 +1,3 @@
----
-title: 05-Python yield函数,生成器
-date: 2018-02-13 20:10:43
-tags: Python基础
----
-
-<h4 style="color: #228B22;">yield函数简单用法, 后续会继续添加..
-
-</h4>
-
 
 
 ### `sys`

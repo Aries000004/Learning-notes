@@ -28,7 +28,6 @@ shell脚本语言学习笔记
 - `$$`脚本运行的进程号
 - `$!`后台运行的最后一个进程号
 
-  
 
 **`test`命令 **  可参考菜鸟教程[shell test 命令](http://www.runoob.com/linux/linux-shell-test.html)
 
