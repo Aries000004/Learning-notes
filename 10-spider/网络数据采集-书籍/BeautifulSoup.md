@@ -156,6 +156,38 @@ for image in images:
 
 
 
+### 3. BeautifulSoup的解析器
+
+##### 3.1 Python标准库
+
+```
+使用方法: BeautifulSoup(html_doc,"html.parser")
+
+优势：Python内置，执行速度适中，文档容错能力强
+
+劣势：Python 2.7.3 or 3.2.2)前 的版本中文档容错能力差
+123456
+```
+
+#### 3.2 lxml解析器(推荐使用)
+
+```
+使用方法：BeautifulSoup(html_doc,'lxml')
+
+优势：速度快，文档容错能力强（C编写），推荐使用
+1234
+```
+
+#### 3.3 html5lib
+
+```
+使用方法：BeautifulSoup(html_doc,"html5lib")
+
+优势：最好的容错性，已浏览器的方式解析文档，生成Html5格式的文档
+
+劣势：速度慢，不依赖外部扩展
+```
+
 
 
 

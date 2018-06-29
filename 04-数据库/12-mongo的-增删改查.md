@@ -1,4 +1,13 @@
+### mongodb
 
+
+
+常用方法介绍
+
+*   一般来说，我们创建集合用db.createCollection(name),如：db.createCollection("log"),创建一个名字为log的集合，没有任何的大小，数量限制，使用_id作为默认索引；
+*   限制集合空间的大小：db.createCollection("log",{size:1024})或db.createCollection("log",{capped:true,size:1024}),创建一个名字为log集合，限制它的空间大小为1M，如果超过1M的大小，则会删除最早的记录；
+*   限制集合的最大条数：db.createCollection("log",{max:1024})，创建一个名字为log集合，最大条数为1024条，超过1024再插入数据的话会删除最早的一条记录。这个不能使用capped:true，否则会报错；
+*   即限制最大条数有限制使用空间大小：db.createCollection("log",{size:1024,max:1024})或db.createCollection("log",{capped:true,size:1024,max:1024})，限制集合最大使用空间为1M，最大条数为1024条。
 
 
 
@@ -27,7 +36,7 @@ db.dropDatabase()
 -- 创建并切换到 school 数据库
 use school
 
--- 穿件集合 colleges
+-- 创建集合 colleges
 db.createCollection('colleges')
 
 -- 创建 students 集合
