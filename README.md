@@ -10,7 +10,7 @@
 
 
 
-### 00 
+### 00
 
 1. [Anaconda](00-杂记/Anaconda.md)
 2. [HTML_note](00-杂记/HTML_note.md)
@@ -163,6 +163,16 @@
 ##### aj-项目
 
 - 待补
+
+
+
+
+### 10-Spider
+
+
+
+[**BeautifulSoup+selenium抓取拉勾网的职位信息+mongodb保存**](https://github.com/zhangMingLu/grocery/tree/master/06-spider/thyspider/lagou_se.py)
+
 
 
 
