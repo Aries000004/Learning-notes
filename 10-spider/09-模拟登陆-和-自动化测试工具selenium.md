@@ -179,6 +179,61 @@ browser.close()
 
 
 
+### Linux 无界面环境下运行 selenium 自动化测试工具
+
+   
+
+系统版本：
+
+​        Red Hat 4.8.2-16
+
+一、首先安装phantomjs
+
+​        1）、下载程序文件
+
+```
+       wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2
+```
+
+​             （注意：32位ubuntu下载链接是https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-i686.tar.bz2）
+
+​         2）、解压文件
+
+```
+      tar -xvf phantomjs-1.9.7-linux-x86_64.tar.bz2
+```
+
+​         注意：有些可能还需要修改合适的地址和名字  改不改都行 不是必要因素。
+
+二、配置环境变量
+
+​          方法一：(全局**环境变量**)
+
+​                  vi  /etc/profile
+                        加入以下内容:
+                            export PATH=$PATH:/root/phantomjs/bin    （红色字体为安装目录）
+                            PATH=$PATH:$HOME/bin
+                            export PATH
+                 **这里要执行 source /etc/profile, 以另刚才的改动生效。**
+
+​          **方法二：（用户环境变量）**
+
+​                  **vi  .bash_profile**
+
+​                        **在export PATH上添加以下内容：                                       export PATH=/root/phantomjs/bin/phantomjs:$PATH  （红色字体为安装目录）**
+
+**三、命令行输入**
+
+​                  **phantomjs --version 如果能看到版本说明OK了  （注意 是  - - version 中间没有空格）**
+
+**如果报错如下：：**
+
+```
+   selenium.common.exceptions.WebDriverException: Message: Service /Users/Me/.npm-packages/bin/phantomjs unexpectedly exited. Status code was: 127
+安装依赖包fontconfig 命令如下：
+     yum --skip-broken install fontconfig freetype libfreetype.so.6 libfontconfig.so.1 
+```
+
 
 
 #### [Python-requests.Session模拟登陆](https://www.cnblogs.com/whatbeg/p/5320666.html)

@@ -30,6 +30,13 @@ windows的下载msi文件比较大有183M，下载需耐心等待了。
 
 我的mongodb安装在D:\instal_soft\mongodb中，那我指定mongodb的data/db也在该路径下即可。但是data文件夹和db文件夹需要自己创建，创建成功以后，执行以下的命令即可启动mongodb了
 
+```shell
+
+mongod --dbpath D:\mongoBD\data\db
+```
+
+
+
 ![图](./images/windows_mongodb_install.png)
 
 如下是安装成功了mongodb，系统会默认开启27017端口，可以通过'localhost:27017'去访问mongodb了。
@@ -66,17 +73,19 @@ tar -xvf mongodb-linux-x86_64-amazon-3.6.5.tar --strip-components 1 -C mongodb-3
 
 启动mongod：
 
+默认的 存储位置为 更目录下  /data/db
+
 ```shell
 export PATH=$PATH:~/mongodb-3.6.5/bin
 mkdir -p /data/db
-mongod --bind_ip 45.76.206.145 # ip
+mongod --bind_ip_all --port 10004 # ip
 ```
 
 ![图](./images/mongo_centos_export_path.png)
 
 启动mongo，然后就可以愉快的使用mongodb进行玩耍啦：
 
- 	mongo --port 45.76.206.145
+ 	mongo --host 45.76.206.145
 
 ![图](./images/mongo_centos_mongo.png)
 

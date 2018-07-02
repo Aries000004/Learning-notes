@@ -16,9 +16,9 @@ asyncio的编程模式就是一个消息循环，我们从asyncio模块中直接
 
 #### `@asyncio.coroutine`和`anync + await`效果相同， 只是写法不同
 
-`async`和`await`是针对coroutine的新语法，要使用新的语法，只需要做两步简单的替换：
+`async`和`await`是针对coroutine(/,kəuru:'ti:n/)的新语法（最新添加的保留关键字），要使用新的语法，只需要做两步简单的替换：
 
-1.  把`@asyncio.coroutine`替换为`async`；
+1.  把`@asyncio.coroutine`替换为`async`
 2.  把`yield from`替换为`await`。
 
 下面的函数得到相同的结果
@@ -59,6 +59,8 @@ loop.close()
 ##### 使用自定义域名服务器
 
 ### aiohttp
+
+异步 http 请求
 
 底层需要[aiodns](https://aiohttp.readthedocs.io/en/stable/glossary.html#term-aiodns)支持:
 

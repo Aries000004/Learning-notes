@@ -49,8 +49,8 @@ span.get('attr')
 
 #### find() 和 findAll()
 
--   `findAll(tag, attrinutsd, recursive, text, limit, keywords)`
--   `find(tag, attributes, recursive, text, kewords)`
+-   `findAll(tag, attributes, recursive, text, limit, keywords)`
+-   `find(tag, attributes, recursive, text, keywords)`
 
 **参数解释**
 
