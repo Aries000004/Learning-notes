@@ -1,12 +1,4 @@
----
-title: 07-Linux操作系统的介绍和使用
-date: 2018-03-06 22:10:36
-tags: Linux
----
-
-<h4 style="color: #228B22;">Linux的一些命令和操作方法
-
-</h4>
+## Linux命令和操作方法
 
 
 
@@ -75,7 +67,6 @@ tags: Linux
    - `scp `安全拷贝      可以从其他服务器里拷贝东西  
      - **`scp 原文件 目标文件  hellokitty@ip :/home/hellokitty`**
 
-   
 
 #### **3.文件操作**
 

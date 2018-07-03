@@ -4,11 +4,11 @@ date: 2018-03-07 22:10:40
 tags: Linux
 ---
 
-<h4 style="color: #228B22;">在Linux系统下使用 npm yum rpm  nginx Linux防火墙 firewall  去IOE运动</h4>
+在Linux系统下使用 npm yum rpm  nginx Linux防火墙 firewall  去IOE运动
 
 
 
-**安装软件**
+### 注册软链接， 和添加系统环境变量
 
 ```
 yum / rpm
@@ -26,6 +26,8 @@ yum / rpm
 hell.sh shell 脚本格式文件 实现自动化操作
 	写入命令 更改为可执行格式 +x 然后执行
 ```
+
+**安装软件**
 
 #### yum
 
