@@ -10,7 +10,7 @@ asyncio 是 Python 3.4 版本引用的标准库， 直接内置了对异步IO �
 
 
 
-asyncio的编程模式就是一个消息循环，我们从asyncio模块中直接获取一个 EventLoopd的引用， 然后把需要执行的协程扔到 EventLoop 中执行， 就实现了异步 IO
+asyncio的编程模式就是一个消息循环，我们从asyncio模块中直接获取一个 EventLoopd的引用， 然后把需要执行的协程扔到 EventLoop 中执行， 就实现了异步 IO，异步 IO 不会中断 CPU ，CPU 可以 继续其他的请求
 
 
 
@@ -54,8 +54,6 @@ loop.close()
 
 
 
-
-
 ##### 使用自定义域名服务器
 
 ### aiohttp
@@ -64,7 +62,7 @@ loop.close()
 
 底层需要[aiodns](https://aiohttp.readthedocs.io/en/stable/glossary.html#term-aiodns)支持:
 
-```
+```python
 from aiohttp.resolver import AsyncResolver
 
 resolver = AsyncResolver(nameservers=["8.8.8.8", "8.8.4.4"])
@@ -90,8 +88,6 @@ sslcontext = ssl.create_default_context(
    cafile='/path/to/ca-bundle.crt')
 r = await session.get('https://example.com', ssl_context=sslcontext)
 ```
-
-
 
 
 
