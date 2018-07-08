@@ -28,7 +28,6 @@ from random import randrange
 from datetime import datetime
 
 
-
 def home(request):
 	fruit_list = ['苹果', '草莓', '蓝莓', '西瓜', '苹果']
 	start = 0

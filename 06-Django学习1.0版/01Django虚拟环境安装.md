@@ -123,3 +123,4 @@ pip install django
 django-admin startproject
 
 python manage.py runserve 0.0.0.0:80 在80端口自动启动
+
