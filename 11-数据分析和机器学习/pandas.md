@@ -70,5 +70,32 @@ df.T # 转置， 行和列交换
 
 df.describe()  #得到count	mean std min 25% 50% 75% max	
 
+在DataFrame描述中只包含字符串列。
+>>> df.describe(include=[np.object])
+
+从DataFrame描述中排除对象列。
+>>> df.describe(exclude=[np.object])
+
+从DataFrame描述中排除数字列。
+>>> df.describe(exclude=[np.number])
+```
+
+
+
+
+
+```python
+
+df.describe()  #得到count	mean std min 25% 50% 75% max	
+
+# shift()
+s = pd.Series([1, 2, 3, 4, np.nan, 7],
+             index=dates).shift(2) # shift 跳过
+
+
+df.apply(np.cumsum) # np.cumsum 下一列是对上一列的累加， NaN 直接跳过
+
+
+
 ```
 
