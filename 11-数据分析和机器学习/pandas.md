@@ -95,7 +95,19 @@ s = pd.Series([1, 2, 3, 4, np.nan, 7],
 
 df.apply(np.cumsum) # np.cumsum 下一列是对上一列的累加， NaN 直接跳过
 
-
-
 ```
+
+
+
+
+
+DataFrame 列索引， 行切片
+
+````python
+
+DataFrame()
+
+````
+
+
 
