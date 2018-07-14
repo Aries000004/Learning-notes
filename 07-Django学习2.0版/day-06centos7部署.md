@@ -59,7 +59,7 @@
 
 	# 先使用数据库
 	use mysql;
-
+	
 	# 针对ip
 	create user 'root'@'192.168.10.10' identified by 'password';
 	
@@ -74,7 +74,7 @@
 	# 给部分权限(test 数据库)
 	
 	grant all privileges on test.* to 'root'@'%' identified by 'password' with grant option;
-
+	
 	# 刷新权限表
  	flush privileges;
 
@@ -102,9 +102,9 @@
 然后根据自己需求下载不同版本的Python3，我下载的是Python3.6.2
 
 	wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz
-
+	
 	然后解压压缩包，进入该目录，安装Python3
-
+	
 	tar -xvJf  Python-3.6.2.tar.xz
 	cd Python-3.6.2
 	./configure --prefix=/usr/local/python3
@@ -126,7 +126,7 @@
 #### 2. 创建虚拟环境
 
 	virtualenv --no-site-packages env
-
+	
 	cd env
 	
 	# 激活虚拟环境
@@ -135,7 +135,7 @@
 #### 3. 安装环境需要的包
 
 	pip3 install -r re_install.txt
-
+	
 	其中re_install.txt文件中记录的是需要安装包的名称以及对应的版本
 
 ### 部署
@@ -153,21 +153,21 @@ Django框架仅在开发模式下提供静态文件服务。当我开启DEBUG模
 在测试环境中一般都直接使用python manage.py runserver的方式去运行项目。其中就涉及到DEBUG=False的修改，静态目录的修改等，具体修改如下：
 
 	修改settings.py配置文件中的DEBUG=False模式，修改ALLOEWD_HOST=['*']
-
+	
 	修改工程目录下的urls.py
-
+	
 	from django.views.static import serve
-
+	
 	urlpatterns = [
 	    url(r'^admin/', admin.site.urls),
 	    url(r'^axf/', include('axf.urls', namespace='axf')),
-
+	
 		# 增加以下的url路由
 	    url(r'^static/(?P<path>.*)$', serve, {"document_root": settings.STATICFILES_DIRS[0]}),
-
+	
 	    url(r'^$', views.home)
 	]
-	
+
 
 #### 2. 正式环境中部署方式
 
@@ -178,7 +178,7 @@ Django框架仅在开发模式下提供静态文件服务。当我开启DEBUG模
 a）添加nginx存储库
 	
 	yum install epel-release
-	
+
 
 b) 安装nginx
 
@@ -194,7 +194,7 @@ nginx的运行命令：
 
 	 systemctl status nginx 查看nginx的状态
 	 systemctl start/stop/enable/disable nginx 启动/关闭/设置开机启动/禁止开机启动
- 
+
 
 d）系统启动时启用Nginx
 	
@@ -203,9 +203,9 @@ d）系统启动时启用Nginx
 e）如果您正在运行防火墙，请运行以下命令以允许HTTP和HTTPS通信：
 	
 	sudo firewall-cmd --permanent --zone=public --add-service=http 
-
+	
 	sudo firewall-cmd --permanent --zone=public --add-service=https
-
+	
 	sudo firewall-cmd --reload
 
 运行结果如下:
@@ -301,23 +301,24 @@ src是项目文件，该目录下上传的是目录代码
 	
 	# 虚拟环境
 	pythonhome = /home/env/axfenv
-
+	
 	# 项目地址
 	chdir = %(base)/%(projectname)
 	
 	# 指定python版本
 	pythonpath = /usr/local/python3/bin/python3
-
+	
 	# 指定uwsgi文件
 	module = %(projectname).wsgi
 	
 	# 和nginx通信地址:端口
 	socket = 127.0.0.1:8890
-
+	
 	# 日志文件地址
 	logto = /home/logs/uwsgi.log
 
-	
+
+​	
 运行项目:
 
 	uwsgi --ini uwsgi.ini
