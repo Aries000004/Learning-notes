@@ -47,7 +47,7 @@ np.logspace(start, stop, num)  将开始到结束均分， 这些值作为10的�
 
 
 
-np.arrange(start, stop, step)  更具 step 来取值，最后一个时取不到的   
+np.arrange(start, stop, step)  更具 step 来取值，最后一个取不到
 
 
 
