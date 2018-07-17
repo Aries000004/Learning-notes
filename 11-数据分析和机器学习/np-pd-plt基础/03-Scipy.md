@@ -2,7 +2,7 @@ Scipy
 
 
 
-阿里镜像安装Scipy
+#### 阿里镜像安装Scipy
 
 `pip install scipy -i https://mirrors.aliyun.com/pypi/simple/`
 

@@ -328,8 +328,8 @@ plt.setp(line, linestyle="--")
 ```python
 x = np.random.randn(100)
 plt.plot(x.cumsum())
-plt.xticks(np.linspace(0, 100, 5), list("ABCD"), rotation=90)
-plt.yticks(np.linspace(-10, 20, 3), ['min', 'mid', 'max'], fontsize=10)
+plt.xticks(np.linspace(0, 100, 5), list("ABCD"), rotation=90)   # 角度
+plt.yticks(np.linspace(-10, 20, 3), ['min', 'mid', 'max'], fontsize=10)  # 字体大小
 ```
 
 ![1531547842240](assets/1531547842240.png)

@@ -1,6 +1,6 @@
 ## :star: Hi, I'm here wait for you!  :star:
 
-欢迎阅读, 点个星星就更好了! :star: 
+欢迎点星星! :star: 
 
 
 
@@ -10,19 +10,7 @@
 
 
 
-### 00
-
-1. [Anaconda](00-杂记/Anaconda.md)
-2. [HTML_note](00-杂记/HTML_note.md)
-3. [Python-note](00-杂记/Python-note.md)
-4. [Python_blog](00-杂记/Python_blog.md)
-5. [Xshell](00-杂记/Xshell.md)
-6. [公司介绍](00-杂记/公司介绍.md)
-
-
-
-
-### 01. Python
+### 01. Python基础
 
 1.  [01-字符串操作-os文件操作-时间日期对象-面向对象-这正则](01-python基础/01-字符串操作-os文件操作-时间日期对象-面向对象-这正则.md)
 2.  [02-函数-reduce()-map()-nonloca](01-python基础/02-函数-reduce()-map()-nonloca.md)

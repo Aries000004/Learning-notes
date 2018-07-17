@@ -4,7 +4,7 @@
 
 列索引
 
-df[""]  df.column
+`df["column_name"]  df.column`
 
 - 可以用类似字典的方式进行索引， 得到的是一个Series 对象
 - 列就相当于DataFrame 的属性， DataFrame 是统计数据时的表格， 某个属性就对应一个DataFrame 的列
@@ -54,7 +54,7 @@ DataFrame 之间的运算, 自动对齐对应的数字， 没有补充 NaN
 
 -   `df1 + df2`  对应的数据相加， 空值会出现 NaN，避免出现NaN
 -   `df1.add(df2, fill_value=0)` 对 df2 中的空值 NaN, 填充 0
--   `pd.add`
+-   `pd.add（）` 效果相同
 
 ![53139453945](assets/1531394539458.png)
 
@@ -90,14 +90,14 @@ DataFrame 之间的运算, 自动对齐对应的数字， 没有补充 NaN
 -   any()  有一个为 True 则为 True， 在不指定 axis 的情况下，首先检查的是列，  
 -   `s1= df.isnull().any(axis=1)`
 -   `df[s1]` 得到空值的列
--   all() 所有为 True 才是True
+-   `all() `所有为 True 才是True
 
 删除和填充空值
 
 -   `dropna()` 默认删除为空值的行， axis =1 删除的是列
     -   `df.dropna()` 删除有空值的行， how=“all"  全部是空才删除
 -   `fillna(value=0)` 指定值来填充空数据
-    -   `df.fillna(method="bfill ffill")` backfill=bfill  pad=ffill, 取前面或者后面的值来填充空值， 默认是列的方向
+    -   `df.fillna(method="bfill ffill")` `backfill=bfill  pad=ffill,` 取前面或者后面的值来填充空值， 默认是列的方向
     -   `df.fillna(method="fill", inpalce=True)`  对原来的对象进行修改，不产生新的对象
 
 
@@ -233,7 +233,7 @@ df1
 *   stack()
 *   unstack()
 
-堆：先进后出， 
+堆：先进后出
 
 *   level 哪一个，哪个就消失，出现在另一个轴中， 默认是 -1
 *   列的level,从上往下 0，1，2 . . . ，unstack() 时，行的索引也是相同的方法，
@@ -303,7 +303,7 @@ outer是交集，inner是属性的并集
 
 
 
-指定连接的轴：join_axes=[df1.columns]， 指定摸个dataFrame的列作为索引进行合并
+指定连接的轴：join_axes=[df1.columns]， 指定哪个dataFrame的列作为索引进行合并
 
 
 
