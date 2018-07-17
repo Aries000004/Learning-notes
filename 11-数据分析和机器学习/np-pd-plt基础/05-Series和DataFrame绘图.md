@@ -92,7 +92,7 @@ df
 nd = np.random.randint(0, 5, size=10)
 s = Series(nd)
 s.hist()  # 绘制直方图
-s.hist(bins=100)  # bins 默认是 10 , bins 每个数据之间的间隔越大
+s.hist(bins=100)  # bins 默认是index的数量, bins越小每个数据之间的间隔越大， 描述的数据区间，表示将一组数据在最大和最小之间分割成多少份进行统计
 ```
 
 
@@ -157,7 +157,7 @@ df.plot(x="X", y="Y", kind="scatter")
 
 pd.plotting.scatter_matrix(df, diagonal="hist") 
 
-diagnoal  对角线显示的图形的类型， 默认是 hist 直方图, 也可以自定义， kde概率图等
+diagnoal  对角线显示的图形的类型， 默认是 hist 直方图, 也可以自定义，下图为kde概率图等
 ```
 
 

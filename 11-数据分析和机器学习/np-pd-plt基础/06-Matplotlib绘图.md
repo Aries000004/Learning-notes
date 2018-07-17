@@ -231,7 +231,9 @@ plt.legend(["x1", "x2", "x3"])
 
 
 
-#### 设置plot风格样式
+### 设置plot风格样式
+
+#### 颜色
 
 ##### 颜色  color / c
 
@@ -246,6 +248,8 @@ plt.legend(["x1", "x2", "x3"])
 ##### 背景色  facecolor
 
 `axes = plt.subplot(facecolor="green")`  定义画板的背景色
+
+#### 线条
 
 ##### 线型 linstyle / ls
 
