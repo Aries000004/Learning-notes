@@ -2,11 +2,36 @@
 
 [代码](https://github.com/zhangMingLu/grocery/blob/master/04-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%95%B0%E5%88%86%E6%9E%90/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/matplotlib%E7%BB%98%E5%9B%BE.ipynb)
 
+
+
+### 参数
+
+```python
+
+
+```
+
+
+
+
+
 ### 直方图 hist
 
 hist ,  `plt.hist(x)`, 表示的是出现的次数， 统计的结果， 表示的是概率
 
+查看数据的分布情况
+
 *   orientation 创建水平方向 的直方图
+
+
+
+### 密度图  kde
+
+一般和直方图，一起，表达数据的分布趋势
+
+-   设置 直方图的 `density=True`, 两个图同时显示
+
+
 
 ### 条形图 bar
 
@@ -40,6 +65,8 @@ plt.axis('equal')  # 变圆
 
 
 ### 散点图  scatter
+
+显示数据的关系
 
 ```python
 x = np.random.randn(1000)
@@ -98,7 +125,37 @@ plt.annotate(s="this is important",  # s 注释，
 
 [视屏](http://www.codingke.com/v/6215-lesson-328-course)
 
+```python
 
+from mpl_toolkits.mplot3d.axes3d import Axes3D
+from matplotlib import cm
+
+fig = plt.figure()
+
+ax = fig.add_subplot(1, 2, 1, projection='3d')
+X = np.arange(-5, 5, 0.25)
+Y = np.arange(-5, 5, 0.25)
+X, Y = np.meshgrid(X, Y)
+R = np.sqrt(X**2 + Y**2)
+Z = np.sin(R)
+surf = ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cm.jet,
+        linewidth=0, antialiased=False)
+ax.set_zlim3d(-1.01, 1.01)
+
+#ax.w_zaxis.set_major_locator(LinearLocator(10))
+#ax.w_zaxis.set_major_formatter(FormatStrFormatter('%.03f'))
+
+fig.colorbar(surf, shrink=0.5, aspect=5)
+
+from mpl_toolkits.mplot3d.axes3d import get_test_data
+ax = fig.add_subplot(1, 2, 2, projection='3d')
+X, Y, Z = get_test_data(0.05)
+ax.plot_wireframe(X, Y, Z, rstride=10, cstride=10)
+
+plt.show()
+```
+
+![53181722127](assets/1531817221270.png)
 
 ### 玫瑰图、 极坐标图
 

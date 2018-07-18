@@ -8,10 +8,18 @@ Scipy
 
 
 
-<<<<<<< HEAD
-#### [深入浅出讲解傅里叶变换](https://www.cnblogs.com/h2zZhou/p/8405717.html)
-=======
 ##### [深入浅出讲解傅里叶变换](https://www.cnblogs.com/h2zZhou/p/8405717.html)
+
+
+
+#### 微积分
+
+`form scipy.integrate import quad`
+
+```python
+# 传入， 积分的函数， 积分的上下边界
+quad(f, a, b)
+```
 
 
 
@@ -38,7 +46,8 @@ display(xiaoming["xiaomingkey"], xiaoming["indexkey"])
 ```
 
 ![53179132036](assets/1531791320360.png)
->>>>>>> cc1c1e0c66f333a7efdb262007d49c3262d093c6
+
+
 
 #### 处理图片 misc
 
@@ -82,9 +91,9 @@ png  float32
 
 一般对图片的异常噪声进行填充，选择为
 
--   平局值  
--   中位数  
--   众数  
+-   平局值    受异常数据影响大
+-   中位数   对异常不敏感
+-   众数   可能会不存在，可以是非数值类型
 -   如果都不合适，那就删除 drop
 
 
