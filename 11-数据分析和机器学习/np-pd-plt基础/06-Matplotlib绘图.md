@@ -119,13 +119,13 @@ axes.plot(x, np.sin(x))
 
 `plt.axis("off")` 不显示坐标轴， 只显示图形
 
-- scaled 
+- scaled  改变画布的大小，使刻度变得一致
 - tight  默认情况
-- equale  坐标轴的 刻度 长度是一致的
+- equale  坐标轴的 刻度 长度是一致的， 不改变画布的大小
 
 ```python
 x = np.random.randn(10)
-# 设置坐标轴的 界限
+# 设置坐标轴的 界限， 建议和 figure.figsize 一起调整，比例保持一致，否则会导致图像比例失调
 plt.axis([-3, 10, -2, 2])
 plt.plot(x)
 ```
@@ -143,7 +143,12 @@ plt.ylim(-2,10)
 plt.plot(y)
 ```
 
-##### xlabel和ylabel，设置坐标轴标签
+##### 坐标轴刻度设置
+
+- xticks()   传入需要设置的值的列表
+- yticks()
+
+##### 坐标轴标签 xlabel和ylabel
 
 - rotation 旋转
 - size 大小
@@ -156,9 +161,12 @@ plt.ylabel("y的标签"， size=20) # size设置大小
 plt.plot(y)
 ```
 
-##### 标题
+#### 标题
 
 `plt.title("title")`   不能含有中文
+
+- rotation 旋转
+- size
 
 ```python
 
@@ -166,7 +174,7 @@ plt.title("title", fontsize=20)
 #  loc 位置  center  right left
 ```
 
-##### 图例  legend
+#### 图例  legend
 
 - loc 图例的位置， 默认是 best 空位置， 也可以以坐标元组  
 - loc=(0.5, 1), 相对值， 相对于图片的宽高， 1个图片的宽度单位
@@ -178,7 +186,7 @@ x = np.arange(0, 10, 1)
 plt.plot(x, x, x, x**2, x, x/2)    
 plt.legend(["normal", "fast", "slow"], loc="right"， nloc=3)  # 这里 加 _ 没有影响
      # 
-# 或者
+# 或者  分别设置每条线的标签， 然后调用 plt.legend() 显示
 plt.plot(x, x, label="normal")
 plt.plot(x, x**2, label="fast")
 plt.plot(x, x/2, label="slow")
@@ -193,30 +201,6 @@ plt.legend()
 
 ![1531543859566](assets/1531543859566.png)
 
-
-
-#### 线条的样式
-
-linstyle
-
-color
-
-marker
-
-```python
-x1 = np.random.randn(10)
-x2 = np.random.randn(10)
-x3 = np.random.randn(10)
-
-plt.plot(x1.cumsum(), color='r', linestyle='--', marker='o')
-plt.plot(x2.cumsum(), color='y', linestyle='-.', marker='>')
-plt.plot(x3.cumsum(), color='m', linestyle=':', marker='*')
-
-plt.legend(["x1", "x2", "x3"])
-```
-
-![1531544849504](assets/1531544849504.png)
-
 ### 保存图片
 
 `plt.savefig()` 保存图片
@@ -228,6 +212,8 @@ plt.legend(["x1", "x2", "x3"])
 - facecolor  背景色
 - papertype 纸的样式
 - orientation `[lan]`  水平，数值
+
+
 
 
 
@@ -258,6 +244,7 @@ plt.legend(["x1", "x2", "x3"])
 - `-.`点划线
 - `:`虚线
 - `steps`阶梯线
+- None  隐藏线
 
 ##### 线宽 linewith / lw
 
@@ -271,6 +258,9 @@ plt.legend(["x1", "x2", "x3"])
 
 - marker  有很多，暂时举例几个
 - markersize  大小
+- markerfacecolor 
+- markeredagewidth
+- markeredagecolor
 
 ![1531546243443](assets/1531546243443.png)![1531546253191](assets/1531546253191.png)
 
@@ -325,7 +315,27 @@ line, = plt.plot(x, np.sin(x))
 plt.setp(line, linestyle="--")
 ```
 
-#### X，Y 轴坐标刻度
+
+
+```python
+x1 = np.random.randn(10)
+x2 = np.random.randn(10)
+x3 = np.random.randn(10)
+
+plt.plot(x1.cumsum(), color='r', linestyle='--', marker='o')
+plt.plot(x2.cumsum(), color='y', linestyle='-.', marker='>')
+plt.plot(x3.cumsum(), color='m', linestyle=':', marker='*')
+
+plt.legend(["x1", "x2", "x3"])
+```
+
+![1531544849504](../../11-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%92%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/np-pd-plt%E5%9F%BA%E7%A1%80/assets/1531544849504.png)
+
+
+
+#### 坐标轴
+
+##### 刻度
 
 `xticks, yticks`
 
@@ -352,7 +362,7 @@ axes.set_xtickelabels() # 设置刻度标签
 
 
 
-##### 绘制拉丁字母
+#### 绘制拉丁字母
 
 - `'$\pi$'` 圆周率 π
 - `$\delts$ ` delta
