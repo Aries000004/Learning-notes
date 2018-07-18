@@ -18,6 +18,11 @@ hist ,  `plt.hist(x)`, 表示的是出现的次数， 统计的结果， 表示�
 
 表示各个部分占的比例 `plt.pie()`
 
+- labeldistance 
+- pctdistance
+- startangle
+- colors
+
 ![1531548939934](./assets/1531548939934.png)
 
 ```python
@@ -41,6 +46,8 @@ plt.axis('equal')  # 变圆
 
 ### 散点图  scatter
 
+
+
 ```python
 x = np.random.randn(1000)
 y = np.random.randn(1000)
@@ -56,6 +63,8 @@ plt.scatter(x, y, color=color, s=size, marker='*')
 ![1531550864571](./assets/1531550864571.png)
 
 ##### 文本 text / figtext
+
+
 
 ```python
 x = np.arange(0, 2*np.pi, 0.01)
@@ -117,7 +126,7 @@ def show_rose(values, title):
     # polar 极坐标
     plt.axes([0, 0, 1, 1], polar=True)
     color = np.random.random(size=24).reshape((8,3))
-    plt.bar(angle, radius, color=color)
+    plt.bar(angle, radius, color=color)  # align = center/edge
     plt.title(title)
     
   

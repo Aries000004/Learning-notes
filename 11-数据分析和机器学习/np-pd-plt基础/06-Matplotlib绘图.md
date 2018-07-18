@@ -145,7 +145,7 @@ plt.plot(y)
 
 ##### 坐标轴刻度设置
 
-- xticks()   传入需要设置的值的列表
+- xticks([刻度值列表]， [标签列表])   传入需要设置的值的列表
 - yticks()
 
 ##### 坐标轴标签 xlabel和ylabel
@@ -313,6 +313,7 @@ line1.set_label()
 
 line, = plt.plot(x, np.sin(x))
 plt.setp(line, linestyle="--")
+line.setline_width(15) # 设置线宽
 ```
 
 
