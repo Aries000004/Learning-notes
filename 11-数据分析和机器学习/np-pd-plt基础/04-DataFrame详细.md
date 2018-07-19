@@ -602,3 +602,28 @@ DataFrame() 对象还支持  query () 方法
 
 `df.query("index_name='要查找的列' & column_value=查找的值 ")`
 
+
+
+#### 透视表和交叉表
+
+原表
+
+![53196644966](assets/1531966449663.png)
+
+```python
+# 透视表
+pd.pivot_table(data=df,index=["sex"], values=["smoke"], 
+                aggfunc="sum")
+
+```
+
+![53196645795](assets/1531966457959.png)
+
+```python
+
+# 交叉表
+# 交叉表应该注意，传入的是行的索引，和 列的索引
+pd.crosstab(df.sex, df.smoke)
+```
+
+![53196647165](assets/1531966471652.png)
