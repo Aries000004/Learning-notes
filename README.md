@@ -2,7 +2,7 @@
 
 >   auth: zhangminglu
 >
->   datetime: 2018-7-6 20:45
+>   datetime: 2018-6-6 
 >
 >   Email: 1367000465@qq.com
 >
@@ -23,29 +23,26 @@
 
 ### Django
 
--   [基础知识](02-Django\01-Django基础)
--   [进阶](02-Django\02-Django进阶)
-
+-   [基础知识](02-Django/01-Django基础)
+-   [进阶](02-Django/02-Django进阶)
 
 
 ### Flask
 
--   [基础知识](03-Flask\基础知识)
--   [基础教程](03-Flask\Flask-基础教程)
-
+-   [基础知识](03-Flask/基础知识)
+-   [基础教程](03-Flask/Flask-基础教程)
 
 
 ### 爬虫
 
--   [基础知识](04-spider\基础知识)
--   [scrapy框架](04-spider\scrapy)
--   [书籍笔记](04-spider\网络数据采集-书籍)
-
+-   [基础知识](04-spider/基础知识)
+-   [scrapy框架](04-spider/scrapy)
+-   [书籍笔记](04-spider/网络数据采集-书籍)
 
 
 ### 机器学习数据分析
 
--   [基础知识](05-ml\np-pd-plt基础知识)
--   [机器学习](05-ml\机器学习)
--   [TensorFlow](05-ml\TensorFlow)
+-   [基础知识](05-ml/np-pd-plt基础知识)
+-   [机器学习](05-ml/机器学习)
+-   [TensorFlow](05-ml/TensorFlow)
 
