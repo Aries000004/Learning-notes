@@ -330,7 +330,7 @@ plt.plot(x3.cumsum(), color='m', linestyle=':', marker='*')
 plt.legend(["x1", "x2", "x3"])
 ```
 
-![1531544849504](../../11-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%92%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/np-pd-plt%E5%9F%BA%E7%A1%80/assets/1531544849504.png)
+![1531544849504](./assets/1531544849504.png)
 
 
 
