@@ -44,3 +44,4 @@ s.prixies = {'http': '123.0.0.2:80'}
 print(s.get('http://www.baidu.com').json())
 ```
 
+![creenshot_2018-07-22-23-22-21-120_慕课](assets/Screenshot_2018-07-22-23-22-21-120_慕课网.png)
