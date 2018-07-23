@@ -1,11 +1,3 @@
----
-title: 16-MySQL数据库,数据库语言SQL, DDL
-date: 2018-05-14 20:10:32
-tags: 数据库
----
-
-<h4 style="color: #228B22;">数据库 编程语-SQL / 定义语言-DDL 数据进行定义 操作 查询 控制</h4>
-
 
 
 - SQL(structured Query Langunage)

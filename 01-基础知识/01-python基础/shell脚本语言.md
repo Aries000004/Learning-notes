@@ -1,12 +1,4 @@
----
-title: shell脚本语言
-date: 2018-05-14 22:10:49
-tags: Linux
----
 
-
-
-shell脚本语言学习笔记
 
 
 

@@ -1,17 +1,3 @@
----
-title: 26-数据库和Python-通讯录系统
-date: 2018-05-20 11:44:51
-tags: 数据库
----
-
-
-
-<h4 style="color: #228B22;">暂时能够实现简单的增删改查的功能, 还需要对录入的信息进行一些条件的限制,.
-
-</h4>
-
-[coding源代码下载](https://git.coding.net/zhangminglu/exampleCode.git)
-
 
 
 ```python

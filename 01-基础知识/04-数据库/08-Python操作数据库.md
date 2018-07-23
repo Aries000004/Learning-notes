@@ -1,11 +1,3 @@
----
-title: 22-Python操作数据库
-date: 2018-05-17 22:07:37
-tags: 数据库
----
-
-<h4 style="color: #228B22;">在Python中操作数据库   ORM  通过pymysql 操作数据库</h4>
-
 
 
 ORM - Object Relation Mapping 对象关系映射
