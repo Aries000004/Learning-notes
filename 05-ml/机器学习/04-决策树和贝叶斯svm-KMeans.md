@@ -131,7 +131,7 @@ plt.legend()
 
 #### 朴素贝叶斯
 
--   独立性假设，假设各个属性不想关
+-   独立性假设，假设各个属性不想关，进行分类，朴素贝叶斯和线性的分类器是相似的，但是朴素贝叶斯的泛化性能可能会稍差一些
 
 
 
@@ -139,12 +139,12 @@ plt.legend()
 
 高斯分布朴素贝叶斯
 
-`from sklearn.naive_bayes import GaussianNB`
+
 
 ```python
+from sklearn.naive_bayes import GaussianNB
 
 g_NB = GaussianNB()
-
 g_NB.fit(X_train, y_train)
 ```
 
@@ -173,7 +173,7 @@ g_NB.fit(X_train, y_train)
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-## 使用 tf 对文本数据进行 转化
+## 使用 tf 对文本数据进行 转化，将整个语句转化为单个单词
 
 tf = TfidfVectorizer()
 X_train = tf.fit(X).transform(X)
@@ -200,7 +200,7 @@ m_NB.predict(sms_data)
 
 SVM由来
 
-- 在训练过程中 SVM学习每个训练数据点对于表示两个类别之间的决策边界的重要性。通常只有一部分训练数据点对于定义决策边界来说很重要，这些点是位于类别边界上的那些点，这些点就叫做**支持向量**，支持向量机也由此得名
+- 在训练过程中 **SVM**学习每个训练数据点对于表示两个类别之间的决策边界的重要性。通常只有一部分训练数据点对于定义决策边界来说很重要，这些点是位于类别边界上的那些点，这些点就叫做**支持向量**，支持向量机也由此得名
 - 想要对新的样本点进行预测，需要测量它与每个支持向量之间的距离，分类决策时基于它与支持向量之间的距离以及在训练过程中学到的支持向量的重要性来做出的（保存在SVC的dual_coef_属性中）
 
 
