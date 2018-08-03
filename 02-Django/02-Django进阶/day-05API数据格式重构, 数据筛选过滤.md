@@ -44,10 +44,6 @@ $.get(API, function (msg) {})
 $.post(API, data, function(msg) {})
 ```
 
-
-
-
-
 ### 2. 重构API返回数据
 
 -   重写`JSONRenderer`,设置返回的数据格式, 自定义类, 继承 JSONRenderer
