@@ -1,13 +1,3 @@
----
-title: 25-Javascript-JQuary-Ajax
-date: 2018-05-20 09:51:10
-tags: HTML
----
-
-
-
-<h4 style="color: #228B22;">JS常用的命令, JQuary, Ajax</h4>
-
 
 
 浏览器对象模型-BOM(Browser Object Model)

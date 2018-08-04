@@ -1,11 +1,3 @@
----
-title: 24-HTML标签和层叠样式表css
-date: 2018-05-20 09:50:40
-tags: HTML
----
-
-<h4 style="color: #228B22;">超文本标记语言, 由标签 - 层叠样式表 - Javascript 组成</h4>
-
 
 
 #### 1.常用的标签
