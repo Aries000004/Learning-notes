@@ -2,7 +2,7 @@
 
 >   auth: zhangminglu
 >
->   datetime: 2018-6-6 
+>   datetime: 2018/02/06 
 >
 >   Email: 1367000465@qq.com
 >
@@ -10,7 +10,7 @@
 
 
 
-### Python基础知识
+### 基础知识
 
 -   [python](01-基础知识/01-python基础)
 -   [前端](01-基础知识/02-html-js-css)
@@ -18,8 +18,6 @@
 -   [数据库](01-基础知识/04-数据库)
 -   [Linux](Learning-notes/01-基础知识\05-Linux)
 -   [Restfull-API](01-基础知识/06-API)
-
-
 
 ### Django
 
